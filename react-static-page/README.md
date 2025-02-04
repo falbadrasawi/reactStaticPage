@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# React Static Page with Git/GitHub
+Create a React app with a static page layout while practicing Git/GitHub workflows
 
-In the project directory, you can run:
+## 1. Create a New Repository on GitHub
 
-### `npm start`
+## 2. Clone the Repository Locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. Navigate to the repo locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 4. Create a React app in the local repository using npx command.
 
-### `npm test`
+## 5. Choose a Famous Story:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Example stories:
+The Tortoise and the Hare
+Cinderella
+The Boy Who Cried Wolf
+## 6. Navigate to the project/app folder
 
-### `npm run build`
+## 7. Inside the src folder, create a new folder named components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 8. Add three files inside components: Header.js, Content.js, and Footer.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Header.js : Use the title of the story for the header.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Content.js :  Include 2-3 paragraphs summarizing the story.
 
-### `npm run eject`
+Footer.js : Add the moral or lesson of the story.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 9. Import the components from the components folder and use them inside the App component for rendering.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 10. Start the app to ensure all components are rendering correctly
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+folder structure:
+src/
+├── components/
+│      ├── Header.js
+│      ├── Content.js
+│      ├── Footer.js
+├── App.js
+├── index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 11. push the files to github
 
-## Learn More
+### Optional :
+Include images related to the story 
+style the components using either inline styles or an external CSS file for each component.
+If using external css file : create a css file for the component and import it
+Example :  create a Header.css file in the components folder and import it in Header.js --> import "./Header.css";
+Include a readme file : Add a README.md file with: A description of the project and Steps to set up and run the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Submit the github url of the repository
